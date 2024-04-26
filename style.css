@@ -258,7 +258,7 @@ body{
     font-weight: 700;
     color: #088178;
 }
-#product1 .pro .cart{
+.cartIcon{
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -270,6 +270,9 @@ body{
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+.cartIcon i{
+    color: #088178;
 }
 
 #banner{
