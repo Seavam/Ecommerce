@@ -594,7 +594,9 @@ footer .copyright{
 }
 
 /* Blog Page */
-
+#page-header {
+    background-image: url("Img/Banner/b19.jpg");
+}
 
 /* About Page */
 
