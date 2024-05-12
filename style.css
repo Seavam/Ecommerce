@@ -501,7 +501,6 @@ footer .copyright{
 
 /* shop page */
 #page-header{
-    background-image: url("Img/Banner/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -510,6 +509,10 @@ footer .copyright{
     text-align: center;
     flex-direction: column;
     padding: 14px;
+}
+.shop-header{
+    background-image: url("Img/Banner/b1.jpg");
+
 }
 #page-header h2,
 #page-header p{
@@ -593,9 +596,11 @@ footer .copyright{
     line-height: 25px;
 }
 
-/* Blog Page */
-#page-header {
+/* Blog Page */ 
+.blog-header{
     background-image: url("Img/Banner/b19.jpg");
+    background-size: cover !important;
+    background-position: center;
 }
 
 /* About Page */
