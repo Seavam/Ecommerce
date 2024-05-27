@@ -1,131 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce</title>
-    
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section id="header">
-        <a href="#"><img src="Img/logo.png" class="logo" alt=""></a>
+      <a href="#"><img src="Img/logo.png" class="logo" alt="" /></a>
 
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li> 
-                <li><a href="shop.html">Shop</a></li> 
-                <li><a href="blog.html">Blog</a></li> 
-                <li><a href="about.html">About</a></li> 
-                <li><a class="active" href="contact.html">Contact</a></li> 
-                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li> 
-                <div ><a href="#" id="close"><i class="fa-solid fa-xmark"></i></a></div>
-            </ul>
-        </div>
-        <div id="mobile">
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li id="lg-bag">
             <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
-            <i id="bar" class="fas fa-outdent"></i>
-        </div>
+          </li>
+          <div>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </div>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
     </section>
 
     <section id="page-header" class="about-header">
-        <h2>#Let's_talk</h2>
-        <p>LEAVE A MESSAGE, We love to hear from you!</p>
+      <h2>#Let's_talk</h2>
+      <p>LEAVE A MESSAGE, We love to hear from you!</p>
     </section>
 
-    <section id="contact-details" class="section-p1">
-        <div class="details">
-            <span>GET IN TOUCH</span>
-            <h2>Visit one of our agency locations or contact us today</h2>
-            <h3>Head Office</h3>
-            <div>
-                <li>
-                    <i class="fa-solid fa-map-location-dot"></i>
-                    <p>Bhagwati Mandir Near AONE Cafe, Tikathali</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>rautshivam9@gmail.com</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-phone"></i>
-                    <p>+977-9867078590</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-clock"></i>
-                    <p>Monday-Friday,9:00 am - 5:00 pm</p>
-                </li>
-            </div>
+    <section id="contact_details" class="section-p1">
+      <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit one of our agency locations or contact us today</h2>
+        <h3>Head Office</h3>
+        <div>
+          <li>
+            <i class="fa-solid fa-map-location-dot"></i>
+            <p>Bhagwati Mandir Near AONE Cafe, Tikathali</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <p>rautshivam9@gmail.com</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <p>+977-9867078590</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-clock"></i>
+            <p>Monday-Friday,9:00 am - 5:00 pm</p>
+          </li>
         </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14135.623272447829!2d85.34808395645783!3d27.65838546936729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb10aa668e649f%3A0x302b443de16adbd5!2z4KSf4KS_4KSV4KS-4KSl4KSy4KWALCDgpK7gpLngpL7gpLLgpJXgpY3gpLfgpY3gpK7gpYA!5e0!3m2!1sne!2snp!4v1716801548318!5m2!1sne!2snp"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    
+    <section id="form-details" class="section-p1">
+      <form action="">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We love to hear from you</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="Subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <button class="normal">Submit</button>
+      </form>
+
+      <div class="people">
+        <div>
+            <img src="Img/People/1.png" alt="">
+           <p><span>John Doe</span> Senior Marketing Manager <br> phone: +9779812345678 <br>Email: contact@example.com </p>
+        </div> 
+        
+        <div>
+            <img src="Img/People/2.png" alt="">
+           <p><span>William Smith</span> Senior Marketing Manager <br> phone: +9779812345678 <br>Email: contact@example.com </p>
+        </div> 
+
+        <div>
+            <img src="Img/People/3.png" alt="">
+           <p><span>Emma Stone</span> Senior Marketing Manager <br> phone: +9779812345678 <br>Email: contact@example.com </p>
+        </div> 
+      </div>
     </section>
 
-        
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get Email updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
 
     <footer class="section-p1">
-        <div class="col">
-            <img class="logo" src="Img/logo.png" alt="">
-            <h4>Contact</h4>
-            <p><strong>Address:</strong> Tikathali, Lalitpur</p>
-            <p><strong>Phone:</strong> +9779867078590</p>
-            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
-            <div class="follow">
-                <h4>Follow Us</h4>
-                <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-pinterest-p"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
+      <div class="col">
+        <img class="logo" src="Img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Tikathali, Lalitpur</p>
+        <p><strong>Phone:</strong> +9779867078590</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
         </div>
+      </div>
 
-        <div class="col">
-            <h4>About</h4>
-            <a href="#">About us</a>
-            <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Contact us</a>
-        </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
 
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
-            <a href="#">My Wishlist</a>
-            <a href="#">Track My Order</a>
-            <a href="#">Contact us</a>
-        </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Contact us</a>
+      </div>
 
-        <div class="col install">
-            <h4>Install App</h4>
-            <p>From App Store or Google Play</p>
-            <div class="row">
-                <img src="Img/Pay/app.jpg" alt="">
-                <img src="Img/Pay/pay.png" alt="">
-            </div>
-            <p>Secured Payment Gateways</p>
-            <img src="Img/Pay/play.jpg" alt="">
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="Img/Pay/app.jpg" alt="" />
+          <img src="Img/Pay/pay.png" alt="" />
         </div>
+        <p>Secured Payment Gateways</p>
+        <img src="Img/Pay/play.jpg" alt="" />
+      </div>
 
-        <div class="newstext">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get Email updates about our latest shop and <span>special offers.</span></p>    
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button class="normal">Sign Up</button>
-        </div>
-    
-
-        <div class="copyright">
-            <p>© 2024, Seavam Raut - HTML CSS Ecommerce Template</p>
-        </div>
+      <div class="copyright">
+        <p>© 2024, Seavam Raut - HTML CSS Ecommerce Template</p>
+      </div>
     </footer>
-    <script src="https://kit.fontawesome.com/5bbf89014d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5bbf89014d.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-
-
-</body>
+  </body>
 </html>
