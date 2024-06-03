@@ -706,9 +706,12 @@ footer .copyright{
     width: 40%;
 }
 
+
+
 #contact_details .details span,
 #form-details form span{
-    font-size: 12px;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 #contact_details .details h2,
