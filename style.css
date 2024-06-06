@@ -887,6 +887,16 @@ footer .copyright{
     #newsletter .form {
         width: 70%;
     }
+
+    /* contact page */
+
+    #form-details {
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 50%;
+    }
 }
 
 
@@ -990,5 +1000,27 @@ footer .copyright{
     h2 {
         margin-top: 20px;
         text-align: center;
+    }
+
+    /* contact page */
+
+    #contact_details {
+        flex-direction: column;
+    }
+    #contact_details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact_details .map {
+        width: 100%;
+    }
+    #form-details {
+        margin: 10px;
+        padding: 30px 10PX;
+        flex-wrap: wrap;
+    }
+    #form-details form {
+        width: 100%;
+        margin-bottom: 30PX;
     }
 }
