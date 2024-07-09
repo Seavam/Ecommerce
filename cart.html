@@ -19,7 +19,9 @@
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li id="lg-bag">
-            <a class="active" href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <a class="active" href="cart.html"
+              ><i class="fa fa-shopping-bag"></i
+            ></a>
           </li>
           <div>
             <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
@@ -38,47 +40,81 @@
     </section>
 
     <section id="cart" class="section-p1">
-        <table width="100%">
-            <thead>
-                <tr>
-                    <td>Remove</td>
-                    <td>Image</td>
-                    <td>Product</td>
-                    <td>Price</td>
-                    <td>Quantity</td>
-                    <td>Subtotal</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="#"><i class="far fa-times-circle"></i></a> </td>
-                    <td><img src="Img/Products/f1.jpg" alt=""></td>
-                    <td>Cartoon Astronut T-Shirts</td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
-                </tr>
-               
-                <tr>
-                    <td><a href="#"><i class="far fa-times-circle"></i></a> </td>
-                    <td><img src="Img/Products/f3.jpg" alt=""></td>
-                    <td>Green Floral T-Shirts</td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
-                </tr>
-                <tr>
-                    <td><a href="#"><i class="far fa-times-circle"></i></a> </td>
-                    <td><img src="Img/Products/f4.jpg" alt=""></td>
-                    <td>Cartoon Floral T-Shirts</td>
-                    <td>$118.19</td>
-                    <td><input type="number" value="1"></td>
-                    <td>$118.19</td>
-                </tr>
-            </tbody>
-        </table>
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Img/Products/f1.jpg" alt="" /></td>
+            <td>Cartoon Astronut T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Img/Products/f3.jpg" alt="" /></td>
+            <td>Green Floral T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Img/Products/f4.jpg" alt="" /></td>
+            <td>Cartoon Floral T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$335</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><Strong>Total</Strong></td>
+            <td><strong>$335</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
 
     <footer class="section-p1">
       <div class="col">
